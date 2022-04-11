@@ -12,4 +12,12 @@ export class BookListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  myBooks: Book[] = [
+    new Book(
+        'Book of Testing',
+        'Will Wilder',
+        'Mystery',
+        'https://source.unsplash.com/50x50/?mystery,book'
+    )
+];
 }
